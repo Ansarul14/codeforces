@@ -1,0 +1,27 @@
+import math
+x=int(input())
+n=input()
+li=[]
+li=n.split(' ')
+h=int(li[0])
+m=int(li[1])
+count=0
+if h==7 or h==17 or m==7 or m%10==7:
+    print(0)
+else:
+    while(1):
+        m=m-x
+        count=count+1
+        if m<0:
+            m=m+60
+            h=h-1
+        if h<0:
+            h=h+24
+        if m==7 or m%10==7:
+            break
+        if h==7 or h==17:
+            break
+
+    print(count)
+
+
