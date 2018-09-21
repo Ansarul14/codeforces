@@ -1,0 +1,117 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char ch[10];
+    int n,m,i,j;
+    cin>>ch;
+    n=strlen(ch);
+    if(n==1){
+        if(ch[0]=='0')
+            cout<<"zero"<<endl;
+        if(ch[0]=='1')
+            cout<<"one"<<endl;
+        if(ch[0]=='2')
+            cout<<"two"<<endl;
+        if(ch[0]=='3')
+            cout<<"three"<<endl;
+        if(ch[0]=='4')
+            cout<<"four"<<endl;
+        if(ch[0]=='5')
+            cout<<"five"<<endl;
+        if(ch[0]=='6')
+            cout<<"six"<<endl;
+        if(ch[0]=='7')
+            cout<<"seven"<<endl;
+        if(ch[0]=='8')
+            cout<<"eight"<<endl;
+        if(ch[0]=='9')
+            cout<<"nine"<<endl;
+    }
+    else{
+        if(ch[n-1]=='0')
+        {
+            if(ch[0]=='1')
+            cout<<"ten"<<endl;
+        if(ch[0]=='2')
+            cout<<"twenty"<<endl;
+        if(ch[0]=='3')
+            cout<<"thirty"<<endl;
+        if(ch[0]=='4')
+            cout<<"forty"<<endl;
+        if(ch[0]=='5')
+            cout<<"fifty"<<endl;
+        if(ch[0]=='6')
+            cout<<"sixty"<<endl;
+        if(ch[0]=='7')
+            cout<<"seventy"<<endl;
+        if(ch[0]=='8')
+            cout<<"eighty"<<endl;
+        if(ch[0]=='9')
+            cout<<"ninety"<<endl;
+       }
+       else if(ch[0]=='1')
+        {
+            if(ch[1]=='0')
+            cout<<"ten"<<endl;
+        if(ch[1]=='1')
+            cout<<"eleven"<<endl;
+        if(ch[1]=='2')
+            cout<<"twelve"<<endl;
+        if(ch[1]=='3')
+            cout<<"thirteen"<<endl;
+        if(ch[1]=='4')
+            cout<<"fourteen"<<endl;
+        if(ch[1]=='5')
+            cout<<"fifteen"<<endl;
+        if(ch[1]=='6')
+            cout<<"sixteen"<<endl;
+        if(ch[1]=='7')
+            cout<<"seventeen"<<endl;
+        if(ch[1]=='8')
+            cout<<"eighteen"<<endl;
+        if(ch[1]=='9')
+            cout<<"nineteen"<<endl;
+
+       }
+       else{
+
+        if(ch[0]=='2')
+            cout<<"twenty";
+        if(ch[0]=='3')
+            cout<<"thirty";
+        if(ch[0]=='4')
+            cout<<"forty";
+        if(ch[0]=='5')
+            cout<<"fifty";
+        if(ch[0]=='6')
+            cout<<"sixty";
+        if(ch[0]=='7')
+            cout<<"seventy";
+        if(ch[0]=='8')
+            cout<<"eighty";
+        if(ch[0]=='9')
+            cout<<"ninety";
+
+        if(ch[1]=='1')
+            cout<<"-one"<<endl;
+        if(ch[1]=='2')
+            cout<<"-two"<<endl;
+        if(ch[1]=='3')
+            cout<<"-three"<<endl;
+        if(ch[1]=='4')
+            cout<<"-four"<<endl;
+        if(ch[1]=='5')
+            cout<<"-five"<<endl;
+        if(ch[1]=='6')
+            cout<<"-six"<<endl;
+        if(ch[1]=='7')
+            cout<<"-seven"<<endl;
+        if(ch[1]=='8')
+            cout<<"-eight"<<endl;
+        if(ch[1]=='9')
+            cout<<"-nine"<<endl;
+
+       }
+    }
+}
